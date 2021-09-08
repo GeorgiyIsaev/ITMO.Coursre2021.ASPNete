@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Lab01.Ex01.EmptyWebSite.Models;
+using System.Collections.Generic;
 
 public class ResponseRepository
 {
