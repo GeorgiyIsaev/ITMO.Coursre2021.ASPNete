@@ -23,5 +23,6 @@ namespace Lab01.Ex01.EmptyWebSite.Models
             WillAttend = willattend; 
             Rdata = DateTime.Now; 
         }
+        
     }
 }

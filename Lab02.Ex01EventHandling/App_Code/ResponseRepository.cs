@@ -1,13 +1,16 @@
-﻿using Lab01.Ex01.EmptyWebSite.Models;
+﻿using System;
+using System.Linq;
+using System.Web;
+using Lab01.Ex01.EmptyWebSite.Models;
 using System.Collections.Generic;
 
 namespace Lab01.Ex01.EmptyWebSite
 {
-    public class ResponseRepositorys
+    internal class ResponseRepository
     {
-        private static ResponseRepositorys repository = new ResponseRepositorys();
+        private static ResponseRepository repository = new ResponseRepository();
         private List<GuestResponse> responses = new List<GuestResponse>();
-        public static ResponseRepositorys GetRepository()
+        public static ResponseRepository GetRepository()
         {
             return repository;
         }
@@ -21,3 +24,6 @@ namespace Lab01.Ex01.EmptyWebSite
         }
     }
 }
+
+
+

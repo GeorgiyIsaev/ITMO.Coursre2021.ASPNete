@@ -14,11 +14,13 @@ namespace Lab01.Ex01.EmptyWebSite
         protected void Page_Load(object sender, EventArgs e)
         {
             if (IsPostBack) 
-            { 
+            {
                 GuestResponse rsvp = new GuestResponse(name.Text, email.Text, phone.Text, CheckBoxYN.Checked);
-                ResponseRepositorys.GetRepository().AddResponse(rsvp);
-               
-           
+                ResponseRepository.GetRepository().AddResponse(rsvp);
+
+
+
+
             }
         }
     }
