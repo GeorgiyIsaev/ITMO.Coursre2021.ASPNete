@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01.Ex01.EmptyWebSite", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01.Ex02.WebFormStart", "Lab01.Ex02.WebFormStart\Lab01.Ex02.WebFormStart.csproj", "{83EC4398-26C3-426D-BDEA-88A04C819D24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02.Ex01EventHandling", "Lab02.Ex01EventHandling\Lab02.Ex01EventHandling.csproj", "{A61CEC27-CE54-4B6C-A449-0E3A5372E78F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02.Ex01.EventHandling", "Lab02.Ex01EventHandling\Lab02.Ex01.EventHandling.csproj", "{A61CEC27-CE54-4B6C-A449-0E3A5372E78F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02.Ex02.AddHtmlFiles", "Lab02.Ex02.AddHtmlFiles\Lab02.Ex02.AddHtmlFiles.csproj", "{9FFC0F2C-50AA-41B8-AF63-E5283F2CB00B}"
 EndProject
