@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace Lab01.Ex01.EmptyWebSite
 {
-    internal class ResponseRepository
+    public class ResponseRepository
     {
         private static ResponseRepository repository = new ResponseRepository();
         private List<GuestResponse> responses = new List<GuestResponse>();
