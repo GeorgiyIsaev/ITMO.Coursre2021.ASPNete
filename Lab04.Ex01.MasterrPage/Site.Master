@@ -5,8 +5,9 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-   
+    <title>   
+    </title>
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
     <style type="text/css">
         .auto-style1 {
             width: 100%;
@@ -19,7 +20,7 @@
    <table class="auto-style1"> 
        <tr> 
            <td colspan="2" style="height:50px">
-               &nbsp; Верхний колонтитул 
+                <h2>RSVP</h2>
            </td> 
        </tr> 
        <tr> 
