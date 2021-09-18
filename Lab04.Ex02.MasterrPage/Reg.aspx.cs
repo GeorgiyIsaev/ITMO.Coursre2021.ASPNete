@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace Lab01.Ex01.EmptyWebSite
 {
     public partial class Reg : System.Web.UI.Page
