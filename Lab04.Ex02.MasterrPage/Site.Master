@@ -25,7 +25,15 @@
        </tr> 
        <tr> 
            <td style="width:200px; height: 200px">
-               &nbsp; Меню 
+                <div class="menu">
+                    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" Orientation="Vertical" ForeColor="Red">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Start.aspx" Text="Главная"/>
+                            <asp:MenuItem NavigateUrl="~/Reg.aspx" Text="Регистрация"/>
+                            <asp:MenuItem NavigateUrl="~/Summary.aspx" Text="Отчет о регистрации"/>
+                        </Items>
+                    </asp:Menu>
+                </div>
            </td>
            <td>
                &nbsp;
