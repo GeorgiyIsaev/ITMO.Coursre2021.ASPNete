@@ -41,12 +41,20 @@
                </asp:ContentPlaceHolder>
            </td> 
        </tr> 
-       <tr> 
-           <td colspan="2" style="height:50px">
-               &nbsp; Нижний колонтитул
-           </td>
+       <tr>         
+            <td colspan="2" class="auto-style4">&nbsp; 
+                <%--Нижний колонтитул--%> 
+                <div id="temo_footer"> 
+                    <ul class="footer_menu"> 
+                        <li><a href="Start.aspx">Главная</a></li>
+                        <li><a href="Reg.aspx">Регистрация</a></li> 
+                        <li><a href="Summary.aspx">Отчет о регистрации</a></li> 
+                        <li><a href="About.aspx">Подробности</a></li> 
+                    </ul> 
+                </div> 
+            </td>         
        </tr> 
-   </table>
+    </table>
     </form>
 </body>
 </html>
