@@ -9,6 +9,6 @@
         </div> 
         <div class="info"> Семинар состоится 1 января 2020 года в 7.30 </div>        
     </div> 
-</asp:Content>
+</asp:Content> 
 
 
