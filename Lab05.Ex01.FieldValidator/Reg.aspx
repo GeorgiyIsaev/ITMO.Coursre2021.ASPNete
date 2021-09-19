@@ -1,10 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Reg.aspx.cs" Inherits="Lab01.Ex01.EmptyWebSite.Reg"  MasterPageFile="~/Site.Master"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Reg.aspx.cs" Inherits="Lab01.Ex01.EmptyWebSite.Reg"  MasterPageFile="~/Site.Master" UnobtrusiveValidationMode="None"%>
 
 <asp:Content ID="MainContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
     <div>
         <div> 
             <h1>Приглашаем на семинар</h1> <p></p> </div>
         <div> 
+            <asp:ValidationSummary ID="validationSummary" runat="server" ShowModelStateErrors="true" />
             <label>Ваше имя:</label>
             <asp:TextBox ID="name" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
