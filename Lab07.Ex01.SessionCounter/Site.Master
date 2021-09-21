@@ -53,6 +53,8 @@
                         <li><a href="About.aspx">Подробности</a></li> 
                     </ul> 
                 </div> 
+                  <%--Счетчик с литералом--%> 
+                <div class="footer"> <asp:Literal ID="VisitorLiteral" runat="server" /> </div>
             </td>         
        </tr> 
     </table>
