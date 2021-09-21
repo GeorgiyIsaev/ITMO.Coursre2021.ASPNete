@@ -13,5 +13,11 @@ namespace Lab01.Ex01.EmptyWebSite
         {
             Application["Visitors"] = 0;
         }
+        void Session_Start(object sender, EventArgs e)
+        { 
+            // Код, выполняемый при запуске нового сеанса 
+            // Increment Visitors counter 
+            Application["Visitors"] = long.Parse(Application["Visitors"].ToString()) + 1; 
+        }
     }
 }
