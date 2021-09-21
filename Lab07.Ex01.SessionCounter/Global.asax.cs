@@ -11,6 +11,7 @@ namespace Lab01.Ex01.EmptyWebSite
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            Application["Visitors"] = 0;
         }
     }
 }
