@@ -14,6 +14,8 @@ namespace Lab01.Ex01.EmptyWebSite.Models
         public bool? WillAttend { get; set; }
         public DateTime Rdata { get; set; }
 
+        public virtual List<Report> Reports { get; set; }
+
         public GuestResponse() { }
         public GuestResponse(string name, string email, string phone, bool? willattend) 
         { 
@@ -21,7 +23,9 @@ namespace Lab01.Ex01.EmptyWebSite.Models
             Email = email; 
             Phone = phone; 
             WillAttend = willattend; 
-            Rdata = DateTime.Now; 
+            Rdata = DateTime.Now;
+
+            Reports = new List<Report>();
         }
         
     }
