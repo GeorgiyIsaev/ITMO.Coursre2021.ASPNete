@@ -32,8 +32,9 @@ namespace Lab01.Ex01.EmptyWebSite
                     Report report2 = new Report(TextBoxTitle2.Text, TextBoxTextAnnot2.Text); 
                     rsvp.Reports.Add(report2);
                 }
+                ResponseRepository.GetRepository().AddResponse(rsvp);
                 try 
-                { 
+                {
                     SampleContext context = new SampleContext();
                     context.GuestResponses.Add(rsvp);
                     context.SaveChanges();
@@ -42,7 +43,7 @@ namespace Lab01.Ex01.EmptyWebSite
                 {
                     Response.Redirect("Ошибка " + ex.Message); 
                 }
-                ResponseRepository.GetRepository().AddResponse(rsvp);
+               
                 if (rsvp.WillAttend.HasValue && rsvp.WillAttend.Value)
                 {
                     Response.Redirect("seeyouthere.html");
