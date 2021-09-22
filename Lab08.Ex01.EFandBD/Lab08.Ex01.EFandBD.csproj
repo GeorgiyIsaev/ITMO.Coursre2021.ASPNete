@@ -101,6 +101,7 @@
       <DependentUpon>Reg.aspx</DependentUpon>
     </Compile>
     <Compile Include="ResponseRepository.cs" />
+    <Compile Include="SampleContext.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
