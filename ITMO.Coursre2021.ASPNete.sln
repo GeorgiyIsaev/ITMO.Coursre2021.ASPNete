@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab06.Ex01.AJAXplag", "Lab0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab07.Ex01.SessionCounter", "Lab07.Ex01.SessionCounter\Lab07.Ex01.SessionCounter.csproj", "{03705F79-E7B1-4F97-80DF-53F5DA5D9B8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab08.Ex01.EFandBD", "Lab08.Ex01.EFandBD\Lab08.Ex01.EFandBD.csproj", "{F4169A30-147D-4C4A-9720-61B342B1B548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{03705F79-E7B1-4F97-80DF-53F5DA5D9B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03705F79-E7B1-4F97-80DF-53F5DA5D9B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03705F79-E7B1-4F97-80DF-53F5DA5D9B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4169A30-147D-4C4A-9720-61B342B1B548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4169A30-147D-4C4A-9720-61B342B1B548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4169A30-147D-4C4A-9720-61B342B1B548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4169A30-147D-4C4A-9720-61B342B1B548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
