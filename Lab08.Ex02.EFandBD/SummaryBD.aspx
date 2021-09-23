@@ -2,10 +2,8 @@
 
 
 <asp:Content  ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server" >
-
-<%--    <form id="form1" runat="server">--%>
         <h2>Список участников</h2>
-        <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataSourceID="LinqDataSource2">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="LinqDataSource1">
             <Columns>
                 <asp:BoundField DataField="Name" HeaderText="Имя" ReadOnly="True" SortExpression="Name" />
                 <asp:BoundField DataField="Email" HeaderText="Email" ReadOnly="True" SortExpression="Email" />
@@ -14,9 +12,7 @@
                 <asp:BoundField DataField="Rdata" HeaderText="Rdata" ReadOnly="True" SortExpression="Rdata" />
             </Columns>
         </asp:GridView>  
-        <asp:LinqDataSource ID="LinqDataSource2" runat="server" ContextTypeName="Lab01.Ex01.EmptyWebSite.SampleContext" EntityTypeName="" Select="new (Name, Email, Phone, WillAttend, Rdata, Reports)" TableName="GuestResponses"> </asp:LinqDataSource>
- <%--   </form>--%>
-
+        <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="Lab01.Ex01.EmptyWebSite.SampleContext" EntityTypeName="" Select="new (Name, Email, Phone, WillAttend, Rdata, Reports)" TableName="GuestResponses"> </asp:LinqDataSource>
 </asp:Content>
 
 

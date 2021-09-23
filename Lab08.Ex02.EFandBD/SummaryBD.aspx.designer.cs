@@ -15,21 +15,21 @@ namespace Lab01.Ex01.EmptyWebSite
     {
 
         /// <summary>
-        /// GridView2 элемент управления.
+        /// GridView1 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView2;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// LinqDataSource2 элемент управления.
+        /// LinqDataSource1 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinqDataSource LinqDataSource2;
+        protected global::System.Web.UI.WebControls.LinqDataSource LinqDataSource1;
     }
 }
