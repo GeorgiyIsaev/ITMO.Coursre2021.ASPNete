@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01.Ex01.EmptyWebSite", "Lab01.Ex01.EmptyWebSite\Lab01.Ex01.EmptyWebSite.csproj", "{BD99708D-1B5D-46DA-A8D6-6AE95BA731E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01.Ex01.EmptyWebSite", "WebApp.RSVP\Lab01.Ex01.EmptyWebSite\Lab01.Ex01.EmptyWebSite.csproj", "{BD99708D-1B5D-46DA-A8D6-6AE95BA731E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01.Ex02.WebFormStart", "Lab01.Ex02.WebFormStart\Lab01.Ex02.WebFormStart.csproj", "{83EC4398-26C3-426D-BDEA-88A04C819D24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01.Ex02.WebFormStart", "WebApp.RSVP\Lab01.Ex02.WebFormStart\Lab01.Ex02.WebFormStart.csproj", "{83EC4398-26C3-426D-BDEA-88A04C819D24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02.Ex01.EventHandling", "Lab02.Ex01.EventHandling\Lab02.Ex01.EventHandling.csproj", "{A61CEC27-CE54-4B6C-A449-0E3A5372E78F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02.Ex01.EventHandling", "WebApp.RSVP\Lab02.Ex01.EventHandling\Lab02.Ex01.EventHandling.csproj", "{A61CEC27-CE54-4B6C-A449-0E3A5372E78F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02.Ex02.AddHtmlFiles", "Lab02.Ex02.AddHtmlFiles\Lab02.Ex02.AddHtmlFiles.csproj", "{9FFC0F2C-50AA-41B8-AF63-E5283F2CB00B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02.Ex02.AddHtmlFiles", "WebApp.RSVP\Lab02.Ex02.AddHtmlFiles\Lab02.Ex02.AddHtmlFiles.csproj", "{9FFC0F2C-50AA-41B8-AF63-E5283F2CB00B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03.Ex01.SeminarDoclad", "Lab03.Ex01.SeminarDoclad\Lab03.Ex01.SeminarDoclad.csproj", "{A358ED0B-4F51-40CF-BE00-FC2105F7B7AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03.Ex01.SeminarDoclad", "WebApp.RSVP\Lab03.Ex01.SeminarDoclad\Lab03.Ex01.SeminarDoclad.csproj", "{A358ED0B-4F51-40CF-BE00-FC2105F7B7AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03.Ex02.GetNoShow", "Lab03.Ex02.GetNoShow\Lab03.Ex02.GetNoShow.csproj", "{7560AE8A-2D1F-4D0D-A8E1-FA8A1CEB005D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03.Ex02.GetNoShow", "WebApp.RSVP\Lab03.Ex02.GetNoShow\Lab03.Ex02.GetNoShow.csproj", "{7560AE8A-2D1F-4D0D-A8E1-FA8A1CEB005D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab04.Ex01.MasterrPage", "Lab04.Ex01.MasterrPage\Lab04.Ex01.MasterrPage.csproj", "{CA932656-0062-409B-9E7D-BF77FF9335D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab04.Ex01.MasterrPage", "WebApp.RSVP\Lab04.Ex01.MasterrPage\Lab04.Ex01.MasterrPage.csproj", "{CA932656-0062-409B-9E7D-BF77FF9335D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab04.Ex02.MasterrPage", "Lab04.Ex02.MasterrPage\Lab04.Ex02.MasterrPage.csproj", "{D38478B0-65D1-4B56-8B8C-1A6E6344B6E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab04.Ex02.MasterrPage", "WebApp.RSVP\Lab04.Ex02.MasterrPage\Lab04.Ex02.MasterrPage.csproj", "{D38478B0-65D1-4B56-8B8C-1A6E6344B6E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab05.Ex01.FieldValidator", "Lab05.Ex01.FieldValidator\Lab05.Ex01.FieldValidator.csproj", "{976CA457-47C5-4DCE-92C5-B7C4340FA1F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab05.Ex01.FieldValidator", "WebApp.RSVP\Lab05.Ex01.FieldValidator\Lab05.Ex01.FieldValidator.csproj", "{976CA457-47C5-4DCE-92C5-B7C4340FA1F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab06.Ex01.AJAXplag", "Lab06.Ex01.AJAXplag\Lab06.Ex01.AJAXplag.csproj", "{4F28563C-502C-4761-B346-19A91CA82965}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab06.Ex01.AJAXplag", "WebApp.RSVP\Lab06.Ex01.AJAXplag\Lab06.Ex01.AJAXplag.csproj", "{4F28563C-502C-4761-B346-19A91CA82965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab07.Ex01.SessionCounter", "Lab07.Ex01.SessionCounter\Lab07.Ex01.SessionCounter.csproj", "{03705F79-E7B1-4F97-80DF-53F5DA5D9B8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab07.Ex01.SessionCounter", "WebApp.RSVP\Lab07.Ex01.SessionCounter\Lab07.Ex01.SessionCounter.csproj", "{03705F79-E7B1-4F97-80DF-53F5DA5D9B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab08.Ex01.EFandBD", "Lab08.Ex01.EFandBD\Lab08.Ex01.EFandBD.csproj", "{F4169A30-147D-4C4A-9720-61B342B1B548}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab08.Ex01.EFandBD", "WebApp.RSVP\Lab08.Ex01.EFandBD\Lab08.Ex01.EFandBD.csproj", "{F4169A30-147D-4C4A-9720-61B342B1B548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab08.Ex02.EFandBD", "Lab08.Ex02.EFandBD\Lab08.Ex02.EFandBD.csproj", "{8B8222A0-6429-402B-8658-093D1D7786D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab08.Ex02.EFandBD", "WebApp.RSVP\Lab08.Ex02.EFandBD\Lab08.Ex02.EFandBD.csproj", "{8B8222A0-6429-402B-8658-093D1D7786D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
