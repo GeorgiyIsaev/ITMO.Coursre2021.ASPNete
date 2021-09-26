@@ -12,8 +12,10 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         // GET: Home
         public string Index(string hel)
         {
-            string Greeting = ModelClass.ModelHello() + ", " + hel;
-            return Greeting;
+            //string Greeting = ModelClass.ModelHello() + ", " + hel;
+            //return Greeting;
+            string res = ExeEnum();
+            return res;
         }
         public string ExeEnum()
         {
@@ -27,8 +29,6 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
                 platinumAccount);
             string res = res1 + "<p>" + res2;
             return res;
-
-
         }
     }
 }
