@@ -12,7 +12,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         // GET: Home
         public string Index(string hel)
         {
-            string res = ExeFactorial(5);
+            string res = ExeTriangle();
             return res;
         }
         public string ExeEnum()
@@ -48,6 +48,13 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
                 return String.Format("Факториал числа {0} равен {1} ", x, f); 
             else
                 return "Невозможно вычислить факториал";
+        }
+        public string ExeTriangle()
+        {
+            Triangle tr1 = new Triangle(3, 5, 6);
+            string sq1 = String.Format("Площадь фигуры {0} равна: {1:0.##}",
+                tr1.Name, tr1.Area);
+            return sq1;
         }
 
     } 
