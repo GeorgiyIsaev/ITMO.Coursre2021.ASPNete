@@ -11,6 +11,14 @@ namespace Lab01.Ex02.WebMVCR1.Models
         Deposit
     }
 
+    public struct BankAccount 
+    { 
+        public long accNo;
+        public decimal accBal; 
+        public AccountType accType; 
+    }
+
+
     public class StudyCsharp_
     {
     }
