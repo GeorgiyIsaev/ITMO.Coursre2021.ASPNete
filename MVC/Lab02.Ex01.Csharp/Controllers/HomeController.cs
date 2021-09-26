@@ -14,8 +14,11 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         {
             //string Greeting = ModelClass.ModelHello() + ", " + hel;
             //return Greeting;
-            string res = ExeEnum();
+            //string res = ExeEnum();
+            //return res;
+            string res = ExeStruct();
             return res;
+
         }
         public string ExeEnum()
         {
