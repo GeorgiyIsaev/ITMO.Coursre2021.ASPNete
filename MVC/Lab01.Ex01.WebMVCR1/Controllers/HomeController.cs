@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace Lab01.Ex01.WebMVCR1.Controllers
 {
-    public class HomeController : Controller
+    public class MyController : Controller
     {
         // GET: Home
-        public string Index() 
+        public string Start() 
         { 
             int hour = DateTime.Now.Hour; 
             string Greeting = hour < 12 ? "Доброе утро" : "Добрый день"; 
