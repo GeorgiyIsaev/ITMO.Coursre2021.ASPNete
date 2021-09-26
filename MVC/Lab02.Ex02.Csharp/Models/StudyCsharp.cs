@@ -69,5 +69,34 @@ namespace Lab01.Ex02.WebMVCR1.Models
             } while (x <= x2);
             return str.ToString(); 
         }
+        public static bool Factorial(int n, out int answer)
+        {
+            int k;
+            int f = 1;
+            bool ok = true;
+            checked 
+            {
+                for (k = 2; k <= n; ++k)
+                { 
+                    f = f * k; 
+                } 
+            }
+            try 
+            { 
+                checked
+                { 
+                    for (k = 2; k <= n; ++k)
+                    {
+                        f = f * k; 
+                    }                
+                } 
+            } 
+            catch (Exception) 
+            {
+                f = 0; ok = false;
+            }
+            answer = f;
+            return ok;
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         // GET: Home
         public string Index(string hel)
         {
-            string res = StudyCsharp.GetFunction(0, 9);
+            string res = ExeFactorial(5);
             return res;
         }
         public string ExeEnum()
@@ -40,5 +40,15 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
                 goldBankAccount);
             return res;
         }
+        public string ExeFactorial(int x)
+        {
+            int f; 
+            bool ok = StudyCsharp.Factorial(x, out f);
+            if (ok) 
+                return String.Format("Факториал числа {0} равен {1} ", x, f); 
+            else
+                return "Невозможно вычислить факториал";
+        }
+
     } 
 }
