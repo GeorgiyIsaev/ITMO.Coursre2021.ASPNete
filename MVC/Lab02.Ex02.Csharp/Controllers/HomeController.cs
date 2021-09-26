@@ -13,6 +13,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         public string Index(string hel)
         {
             string res = StudyCsharp.SetStatus(3);
+            return res;
 
         }
         public string ExeEnum()
