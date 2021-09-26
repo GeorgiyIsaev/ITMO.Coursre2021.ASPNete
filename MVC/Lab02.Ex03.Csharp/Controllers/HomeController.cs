@@ -12,7 +12,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         // GET: Home
         public string Index(string hel)
         {
-            string res = ExeTriangle();
+            string res = ExeCircle();
             return res;
         }
         public string ExeEnum()
@@ -55,6 +55,13 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
             string sq1 = String.Format("Площадь фигуры {0} равна: {1:0.##}",
                 tr1.Name, tr1.Area);
             return sq1;
+        }
+        public string ExeCircle() 
+        {
+            Circle cir1 = new Circle(3);
+            string sq = String.Format("Площадь фигуры {0} равна: {1:0.##}", 
+            cir1.Name, cir1.Area);
+            return sq;
         }
 
     } 
