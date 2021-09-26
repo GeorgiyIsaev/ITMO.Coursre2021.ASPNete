@@ -9,9 +9,11 @@ namespace Lab01.Ex01.WebMVCR1.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
-        {
-            return View();
+        public string Index() 
+        { 
+            int hour = DateTime.Now.Hour; 
+            string Greeting = hour < 12 ? "Доброе утро" : "Добрый день"; 
+            return Greeting; 
         }
     }
 }
