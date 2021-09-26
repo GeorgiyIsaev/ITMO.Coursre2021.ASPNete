@@ -34,5 +34,27 @@ namespace Lab01.Ex02.WebMVCR1.Models
             else if ((age >= 15)) status = "sensei";
             return status;
         }
+        public static string ExeSwitch(string status)
+        { 
+            string res; 
+            switch (status) { 
+                case "junior developer": 
+                    res = "Набирайся знаний"; 
+                    break; 
+                case "middle developer": 
+                    res = "Набирайся опыта";
+                    break; 
+                case "senior developer": 
+                    res = "Руководи другими"; 
+                    break; 
+                case "sensei":
+                    res = "Учи других";
+                    break; 
+                default: 
+                    res = "Не знаю, что делать"; 
+                    break;
+            } 
+            return res; 
+        }
     }
 }
