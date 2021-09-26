@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 
 namespace Lab01.Ex02.WebMVCR1.Models
@@ -55,6 +56,18 @@ namespace Lab01.Ex02.WebMVCR1.Models
                     break;
             } 
             return res; 
+        }
+        public static string GetFunction(double x1, double x2)
+        {
+            StringBuilder str = new StringBuilder(); 
+            double x = x1; 
+            do
+            { 
+                str.AppendFormat("x = {0:0.##} : y = {1:0.##}; <br>",
+                    x, Math.Pow(x, 3));
+                x = x + 0.5;
+            } while (x <= x2);
+            return str.ToString(); 
         }
     }
 }

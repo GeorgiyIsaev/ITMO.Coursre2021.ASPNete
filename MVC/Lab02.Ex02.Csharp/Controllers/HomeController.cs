@@ -12,7 +12,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         // GET: Home
         public string Index(string hel)
         {
-            string res = StudyCsharp.ExeSwitch(StudyCsharp.SetStatus(3));
+            string res = StudyCsharp.GetFunction(0, 9);
             return res;
         }
         public string ExeEnum()
