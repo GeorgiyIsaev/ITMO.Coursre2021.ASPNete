@@ -29,6 +29,11 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         {
             return View("Hello", p);
         }
+        public ViewResult Hello()
+        {
+            return View();
+        }
+
 
         public string ExeEnum()
         {
