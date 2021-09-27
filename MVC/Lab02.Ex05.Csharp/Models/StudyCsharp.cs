@@ -102,7 +102,7 @@ namespace Lab01.Ex02.WebMVCR1.Models
 
     }
 
-    public class Triangle : Shape, IComparable<Circle>
+    public class Triangle : Shape
     {
   
         public double Stb { get; set; }
@@ -121,24 +121,24 @@ namespace Lab01.Ex02.WebMVCR1.Models
                     * (Perimeter / 2 - Stb) * (Perimeter / 2 - Stc));
                 return sq;
             }
-        }
-        public int CompareTo(Circle other)
-        {
-            if (this.Area == other.Area) 
-                return 0; 
-            else if (this.Area > other.Area) 
-                return 1; 
-            else return -1;
-        }
+        }       
     }
 
-    public class Circle : Shape
+    public class Circle : Shape, IComparable<Circle>
     {       
         public Circle(double a) { St = a; }
         public double Dlina { get { double p = 2 * Math.PI * St; return p; } }
         public double Area { get { double sq = Math.PI * St * St; return sq; } }
         override public string Name { get 
             { return String.Format("\"Окружность с радиусом {0}\"", St); } }
+        public int CompareTo(Circle other)
+        {
+            if (this.Area == other.Area)
+                return 0;
+            else if (this.Area > other.Area)
+                return 1;
+            else return -1;
+        }
     }
 
     public class Shape
