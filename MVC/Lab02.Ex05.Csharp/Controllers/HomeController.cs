@@ -14,7 +14,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         // GET: Home
         public string Index(string hel)
         {
-            string res = ExePolim();
+            string res = ExeCollection();
             return res;
         }
         public string ExeEnum()
@@ -75,5 +75,24 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
 
         }
 
+        public string ExeCollection()
+        {
+            List<Circle> cirs = new List<Circle> 
+            { 
+                new Circle(12),
+                new Circle(5), 
+                new Circle(15), 
+                new Circle(6) 
+            };
+            cirs.Add(new Circle(7));
+            cirs.Sort();
+            StringBuilder str = new StringBuilder(); 
+            foreach (Shape item in cirs)
+            {
+                str.AppendFormat("Это фигура {0}", item.Name + "<p>");
+            }
+            return str.ToString();
+
+        }
     } 
 }
