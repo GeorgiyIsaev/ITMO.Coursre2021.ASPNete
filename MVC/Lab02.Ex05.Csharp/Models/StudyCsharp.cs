@@ -102,7 +102,7 @@ namespace Lab01.Ex02.WebMVCR1.Models
 
     }
 
-    public class Triangle : Shape
+    public class Triangle : Shape, IComparable<Circle>
     {
   
         public double Stb { get; set; }
@@ -121,6 +121,14 @@ namespace Lab01.Ex02.WebMVCR1.Models
                     * (Perimeter / 2 - Stb) * (Perimeter / 2 - Stc));
                 return sq;
             }
+        }
+        public int CompareTo(Circle other)
+        {
+            if (this.Area == other.Area) 
+                return 0; 
+            else if (this.Area > other.Area) 
+                return 1; 
+            else return -1;
         }
     }
 
