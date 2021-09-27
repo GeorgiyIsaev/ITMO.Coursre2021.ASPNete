@@ -14,7 +14,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         // GET: Home
         public string Index(string hel)
         {
-            string res = ExeCircle();
+            string res = ExePolim();
             return res;
         }
         public string ExeEnum()
