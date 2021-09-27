@@ -85,7 +85,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
                 new Circle(6) 
             };
             cirs.Add(new Circle(7));
-            //cirs.Sort();
+            cirs.Sort();
             StringBuilder str = new StringBuilder(); 
             foreach (Shape item in cirs)
             {
