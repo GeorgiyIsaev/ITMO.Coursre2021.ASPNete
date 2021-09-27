@@ -19,7 +19,10 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
             ViewData["Mes"] = "хорошего настроения"; 
             return View();
         }
-
+        public ViewResult InputData() 
+        {          
+            return View(); 
+        }
 
 
         public string ExeEnum()
