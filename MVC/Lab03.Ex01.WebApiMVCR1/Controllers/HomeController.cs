@@ -10,13 +10,18 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
 {
     public class HomeController : Controller
     {
-        
+
         // GET: Home
-        public string Index(string hel)
-        {
-            string res = ExeCollection();
-            return res;
+        public ViewResult Index() 
+        { 
+            int hour = DateTime.Now.Hour; 
+            ViewBag.Greeting = hour < 12 ? "Доброе утро" : "Добрый день";
+            ViewData["Mes"] = "хорошего настроения"; 
+            return View();
         }
+
+
+
         public string ExeEnum()
         {
             AccountType goldAccount;
