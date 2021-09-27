@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 
@@ -9,6 +10,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
 {
     public class HomeController : Controller
     {
+        
         // GET: Home
         public string Index(string hel)
         {
@@ -62,6 +64,15 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
             string sq = String.Format("Площадь фигуры {0} равна: {1:0.##}", 
             cir1.Name, cir1.Area);
             return sq;
+        }
+      
+        public string ExePolim()
+        {
+            StringBuilder str = new StringBuilder();
+            Shape[] sh = { new Triangle(1, 2, 3), new Circle(5), new Triangle(5, 6, 8) };
+            foreach (Shape item in sh) { str.AppendFormat("Это фигура {0}", item.Name + "<p>"); }
+            return str.ToString();
+
         }
 
     } 
