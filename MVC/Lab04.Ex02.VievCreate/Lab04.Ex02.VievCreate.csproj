@@ -111,6 +111,7 @@
     <Content Include="Views\Home\Hello.cshtml" />
     <Content Include="Views\Home\ListPerson.cshtml" />
     <Content Include="Views\_BasicLayout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
