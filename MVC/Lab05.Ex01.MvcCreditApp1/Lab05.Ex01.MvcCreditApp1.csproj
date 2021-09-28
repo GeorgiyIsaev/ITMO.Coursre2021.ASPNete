@@ -134,6 +134,7 @@
     <Compile Include="Models\Bid.cs" />
     <Compile Include="Models\Credit.cs" />
     <Compile Include="Models\CreditContext.cs" />
+    <Compile Include="Models\CreditsDbInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
