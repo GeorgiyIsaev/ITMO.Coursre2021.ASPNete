@@ -10,7 +10,7 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
 {
     public class HomeController : Controller
     {
-
+        private static PersonRepository db = new PersonRepository();
         // GET: Home
         public ViewResult Index() 
         { 
@@ -21,19 +21,25 @@ namespace Lab01.Ex02.WebMVCR1.Controllers
         }
         [HttpGet]
         public ViewResult InputData()
-        {
+        {           
             return View();
         }
         [HttpPost]
         public ViewResult InputData(Person p)
         {
+            db.AddResponse(p);
             return View("Hello", p);
         }
         public ViewResult Hello()
         {
             return View();
         }
-
+        public ViewResult OutputData()
+        {
+            ViewBag.Pers = db.GetAllResponses; 
+            ViewBag.Count = db.NumberOfPerson; 
+            return View("ListPerson");
+        }
 
         public string ExeEnum()
         {
