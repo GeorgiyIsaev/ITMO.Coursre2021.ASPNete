@@ -12,10 +12,32 @@ namespace Lab05.Ex01.MvcCreditApp1.Controllers
         private CreditContext db = new CreditContext();
         public ActionResult Index()
         {
-            var allCredits = db.Credits.ToList<Credit>();
-            ViewBag.Credits = allCredits;
+            GiveCredits();
             return View();
         }
+        private void GiveCredits()
+        {
+            var allCredits = db.Credits.ToList<Credit>();
+            ViewBag.Credits = allCredits;
+        }
+        [HttpGet]
+        public ActionResult CreateBid()
+        {
+            GiveCredits(); var allBids = db.Bids.ToList<Bid>();
+            ViewBag.Bids = allBids; return View();
+        }
+        [HttpPost]
+        public string CreateBid(Bid newBid)
+        {
+            newBid.bidDate = DateTime.Now; 
+            // Добавляем новую заявку в БД 
+            db.Bids.Add(newBid);
+            // Сохраняем в БД все изменения 
+            db.SaveChanges(); 
+            return "Спасибо, <b>" + newBid.Name + "</b>, за выбор нашего банка. Ваша заявка будет рассмотрена в течении 10 дней.";
+        }
+
+
 
         public ActionResult About()
         {
