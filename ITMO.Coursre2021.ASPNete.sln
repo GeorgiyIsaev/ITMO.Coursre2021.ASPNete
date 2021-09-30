@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab06.Ex03.ControlTemplate.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab07.Ex01.InteractivePage", "MVC\Lab07.Ex01.InteractivePage\Lab07.Ex01.InteractivePage.csproj", "{AA5AA655-67D1-4351-A0BE-05B67A6453A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab08.Ex01.AccountIng", "MVC\Lab08.Ex01.AccountIng\Lab08.Ex01.AccountIng.csproj", "{C58CC16F-6735-4540-A71C-6245A6827DEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +213,10 @@ Global
 		{AA5AA655-67D1-4351-A0BE-05B67A6453A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5AA655-67D1-4351-A0BE-05B67A6453A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5AA655-67D1-4351-A0BE-05B67A6453A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58CC16F-6735-4540-A71C-6245A6827DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58CC16F-6735-4540-A71C-6245A6827DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58CC16F-6735-4540-A71C-6245A6827DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58CC16F-6735-4540-A71C-6245A6827DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +255,7 @@ Global
 		{7E60C5B8-CB29-44DF-AC0F-C9FED9896484} = {44EDD4A8-8F73-420D-B56C-E386F4ED63D6}
 		{602CB91B-7B23-4E95-9CD1-822B3B9E9C92} = {44EDD4A8-8F73-420D-B56C-E386F4ED63D6}
 		{AA5AA655-67D1-4351-A0BE-05B67A6453A4} = {44EDD4A8-8F73-420D-B56C-E386F4ED63D6}
+		{C58CC16F-6735-4540-A71C-6245A6827DEA} = {44EDD4A8-8F73-420D-B56C-E386F4ED63D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79317326-0EB8-4606-A419-1EE7D58AE01D}
