@@ -1,16 +1,20 @@
 ﻿@model IEnumerable<Lab05.Ex01.MvcCreditApp1.Models.Bid>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Заявки";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+
+
+
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
+    <h2>Заявки</h2>
+    <p> @Html.ActionLink("Создать новую заявку", "Create") </p>
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Name)
@@ -24,23 +28,24 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CreditHead)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.bidDate)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.BidId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.BidId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.BidId })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreditHead)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bidDate)
+            </td>
+            <td>
+                @Html.ActionLink("Изменить", "Edit", new { id = item.BidId }) |
+                @Html.ActionLink("Подробнее", "Details", new { id = item.BidId }) |
+                @Html.ActionLink("Удалить", "Delete", new { id = item.BidId })
+            </td>
+        </tr>
+    }
 
 </table>
