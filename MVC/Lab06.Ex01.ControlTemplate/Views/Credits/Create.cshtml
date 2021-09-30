@@ -1,18 +1,18 @@
 ﻿@model Lab05.Ex01.MvcCreditApp1.Models.Credit
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Создние";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Create</h2>
+<h2>Создание</h2>
 
 @using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>Credit</h4>
+        <h4>Кредиты</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -56,5 +56,5 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Назад", "Index")
 </div>

@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<Lab05.Ex01.MvcCreditApp1.Models.Credit>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Главная";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Главная</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Создать новый кредит", "Create")
 </p>
 <table class="table">
     <tr>
@@ -42,9 +42,9 @@
             @Html.DisplayFor(modelItem => item.Procent)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.CreditId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CreditId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.CreditId })
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.CreditId }) |
+            @Html.ActionLink("Детали", "Details", new { id=item.CreditId }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.CreditId })
         </td>
     </tr>
 }
