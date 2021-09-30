@@ -187,6 +187,7 @@
     <Content Include="Views\Credits\Details.cshtml" />
     <Content Include="Views\Credits\Edit.cshtml" />
     <Content Include="Views\Credits\Index.cshtml" />
+    <Content Include="Views\Home\BidSearch.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

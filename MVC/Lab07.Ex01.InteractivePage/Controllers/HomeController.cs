@@ -15,6 +15,16 @@ namespace Lab05.Ex01.MvcCreditApp1.Controllers
             GiveCredits();
             return View();
         }
+        public ActionResult BidSearch(string name)
+        {
+            var allBids = db.Bids.Where(a => a.CreditHead.Contains(name)).ToList();
+            if (allBids.Count == 0)
+            {
+                return Content("Указанный кредит " + name + " не найден");
+                //return HttpNotFound();
+            }
+            return PartialView(allBids);
+        }
         private void GiveCredits()
         {
             var allCredits = db.Credits.ToList<Credit>();

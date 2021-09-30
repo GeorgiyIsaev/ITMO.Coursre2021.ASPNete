@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +8,7 @@ using System.Web;
 
 namespace Lab05.Ex01.MvcCreditApp1.Models
 {
-    public class Bid
+    public class Bid 
     { 
 
         // ID заявки
@@ -23,6 +24,5 @@ namespace Lab05.Ex01.MvcCreditApp1.Models
         [DataType(DataType.DateTime)] 
         [DisplayFormat(DataFormatString = "{0:dd/MM/yy}")]
         public virtual DateTime bidDate { get; set; }
-
     }
 }
