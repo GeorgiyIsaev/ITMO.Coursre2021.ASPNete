@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 using Lab05.Ex01.MvcCreditApp1.Models;
 
 namespace Lab05.Ex01.MvcCreditApp1.Controllers
@@ -15,6 +16,7 @@ namespace Lab05.Ex01.MvcCreditApp1.Controllers
         private CreditContext db = new CreditContext();
 
         // GET: Bids
+        [OutputCache(Duration = 60, Location = OutputCacheLocation.ServerAndClient)]
         public ActionResult Index()
         {
             return View(db.Bids.ToList());
