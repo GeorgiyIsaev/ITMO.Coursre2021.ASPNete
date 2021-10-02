@@ -1,12 +1,15 @@
+using Lab05.Ex01.MvcCreditApp1.Models;
+using Lab08.Ex01.AccountIng.PP;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace Lab08.Ex01.AccountIng.PP
+namespace Lab05.Ex01.MvcCreditApp1
 {
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -16,6 +19,7 @@ namespace Lab08.Ex01.AccountIng.PP
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            Database.SetInitializer(new CreditsDbInitializer());
         }
     }
 }

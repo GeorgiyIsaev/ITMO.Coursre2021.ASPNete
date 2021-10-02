@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Lab08.Ex01.AccountIng.PP
+namespace Lab05.Ex01.MvcCreditApp1
 {
     public class BundleConfig
     {
@@ -25,6 +25,8 @@ namespace Lab08.Ex01.AccountIng.PP
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/bundles/ajax").Include(
+                      "~/Scripts/jquery.unobtrusive-ajax.min.js"));
         }
     }
 }
