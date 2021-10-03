@@ -27,6 +27,7 @@
                             <asp:MenuItem NavigateUrl="~/AddStudents.aspx" Text="Добавить студента"/>
                             <asp:MenuItem NavigateUrl="~/ShowStudent.aspx" Text="Все студента"/>
                             <asp:MenuItem NavigateUrl="~/ShowStudentONE.aspx" Text="Лучшие студенты"/>  
+                              <asp:MenuItem NavigateUrl="~/ShowStudentBAD.aspx" Text="Худшие студенты"/>  
                         </Items>
                     </asp:Menu>
                 </div>
@@ -45,8 +46,8 @@
                         <li><a href="Start.aspx">Главная</a></li>
                         <li><a href="AddStudents.aspx">Добавить</a></li>
                         <li><a href="ShowStudent.aspx">Все</a></li> 
-                        <li><a href="ShowStudentONE.aspx">Лучшие</a></li>                   
-                 
+                        <li><a href="ShowStudentONE.aspx">Лучшие</a></li>    
+                        <li><a href="ShowStudentBAD.aspx">Лучшие</a></li>                    
                     </ul> 
                 </div> 
            </td>         
