@@ -7,6 +7,7 @@
     ContentPlaceHolderID="ContentPlaceHolder1" runat="server">  
     <div>
         <h1>Cистема учета студентов</h1>
+        <hr/>
         <div>Данная веб-программа предназначена для учета студентов</div>
     </div>
 </asp:Content> 
