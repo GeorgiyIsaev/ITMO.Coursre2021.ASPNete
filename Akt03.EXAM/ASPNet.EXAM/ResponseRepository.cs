@@ -18,9 +18,9 @@ namespace ASPNet.EXAM
         {
             return students;
         }
-        public void AddResponse(Student response)
+        public void AddResponse(Student st)
         {
-            students.Add(response);
+            students.Add(st);
         }
     }
 }

@@ -20,8 +20,8 @@ namespace ASPNet.EXAM
                 if (!Page.IsValid) 
                     return;
 
-                double tempAverageMark = 0;
-                if (!Double.TryParse(averageMark.Text, out tempAverageMark))
+                int tempAverageMark = 0;
+                if (!Int32.TryParse(averageMark.Text, out tempAverageMark))
                     return;
 
                 Student student = new Student(name.Text, 
