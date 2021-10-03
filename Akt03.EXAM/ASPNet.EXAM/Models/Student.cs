@@ -19,6 +19,5 @@ namespace ASPNet.EXAM.Models
             Group = group;
             AverageMark = averageMark;
         }
-
     }
 }
