@@ -26,12 +26,12 @@ namespace ASPNet.EXAM
 
                 Student student = new Student(name.Text, 
                     surname.Text, group.Text, tempAverageMark);
-          
+
                 ResponseRepository.GetRepository().AddResponse(student);
                 try
                 {
                     SampleContext context = new SampleContext();
-                    context.Student.Add(student);
+                    context.Students.Add(student);
                     context.SaveChanges();
                 }
                 catch (Exception ex)

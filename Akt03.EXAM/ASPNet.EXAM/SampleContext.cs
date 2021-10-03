@@ -10,6 +10,6 @@ namespace ASPNet.EXAM
     public class SampleContext : DbContext
     {
         public SampleContext() : base("SeminarBD") { }
-        public DbSet<Student> Student { get; set; }    
+        public DbSet<Student> Students { get; set; }    
     }
 }
