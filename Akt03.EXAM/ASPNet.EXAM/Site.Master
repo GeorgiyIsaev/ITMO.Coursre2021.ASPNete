@@ -25,8 +25,8 @@
                         <Items>
                             <asp:MenuItem NavigateUrl="~/Start.aspx" Text="Главная"/>
                             <asp:MenuItem NavigateUrl="~/AddStudents.aspx" Text="Добавить студента"/>
-          <%--                       <asp:MenuItem NavigateUrl="~/Summary.aspx" Text="Отчет о регистрации"/>
-                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="Подробности"/>--%>
+                             <asp:MenuItem NavigateUrl="~/ShowStudent.aspx" Text="Все студента"/>
+
                         </Items>
                     </asp:Menu>
                 </div>
@@ -43,9 +43,9 @@
                 <div id="temo_footer"> 
                     <ul class="footer_menu"> 
                         <li><a href="Start.aspx">Главная</a></li>
-                        <%--<li><a href="Reg.aspx">Регистрация</a></li> 
-                        <li><a href="Summary.aspx">Отчет о регистрации</a></li> 
-                        <li><a href="About.aspx">Подробности</a></li> --%>
+                        <li><a href="AddStudents.aspx">Добавить</a></li>
+                        <li><a href="ShowStudent.aspx">Все</a></li>                  
+                 
                     </ul> 
                 </div> 
            </td>         
