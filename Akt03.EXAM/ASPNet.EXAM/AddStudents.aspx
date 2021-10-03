@@ -1,5 +1,4 @@
-﻿
-<%@ Page Language="C#" AutoEventWireup="true" 
+﻿<%@ Page Language="C#" AutoEventWireup="true" 
     CodeBehind="AddStudents.aspx.cs" 
     Inherits="ASPNet.EXAM.AddStudents"
     MasterPageFile="~/Site.Master" %>
@@ -8,11 +7,10 @@
 <asp:Content ID="MainContent"
     ContentPlaceHolderID="ContentPlaceHolder1" runat="server">    
     <div>
-        <h1>Добавить нового студента</h1>
-        <hr/>
+        <h1>Добавить нового студента</h1>       
          <div> 
             <asp:ValidationSummary ID="validationSummary" runat="server" ShowModelStateErrors="true" />
-            <label>Имя студента:</label>
+            <label style="width: 140px">Имя студента:</label>
             <asp:TextBox ID="name" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
                 ControlToValidate="name"
@@ -21,7 +19,7 @@
             </asp:RequiredFieldValidator>
         </div> 
         <div> 
-            <label>Фамилия студента:</label>
+            <label style="width: 140px">Фамилия студента:</label>
             <asp:TextBox ID="surname" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
                 ControlToValidate="surname" ErrorMessage="Заполните поле фамилии" 
@@ -29,7 +27,7 @@
             </asp:RequiredFieldValidator>   
         </div> 
         <div> 
-            <label>Группа студента:</label>
+            <label style="width: 140px">Группа студента:</label>
             <asp:TextBox ID="group" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
                 ControlToValidate="group" 
@@ -38,7 +36,7 @@
             </asp:RequiredFieldValidator>
         </div> 
         <div> 
-            <label>Группа студента:</label>
+            <label style="width: 140px">Оценка студента:</label>
             <asp:TextBox ID="averageMark" runat="server" OnKeyPress="EnsureNumeric()"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
                 ControlToValidate="averageMark" 
@@ -46,6 +44,5 @@
                 ForeColor="Red">Не оставляйте поле пустым
             </asp:RequiredFieldValidator>
         </div> 
-
     </div>
 </asp:Content> 
