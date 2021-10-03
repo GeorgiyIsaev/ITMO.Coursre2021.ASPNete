@@ -17,10 +17,12 @@ namespace ASPNet.EXAM
             {
                 /*Проверка на валидацию*/
                 Page.Validate();
-                if (!Page.IsValid) return;
+                if (!Page.IsValid) 
+                    return;
 
-                double tempAverageMark = Convert.ToDouble(averageMark.Text); 
-
+                double tempAverageMark = 0;
+                if (!Double.TryParse(averageMark.Text, out tempAverageMark))
+                    return;
 
                 Student student = new Student(name.Text, 
                     surname.Text, group.Text, tempAverageMark);

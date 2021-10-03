@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" 
+    UnobtrusiveValidationMode="None"
     CodeBehind="AddStudents.aspx.cs" 
     Inherits="ASPNet.EXAM.AddStudents"
     MasterPageFile="~/Site.Master" %>
@@ -30,8 +31,7 @@
             <label style="width: 140px">Группа студента:</label>
             <asp:TextBox ID="group" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
-                ControlToValidate="group" 
-                ErrorMessage="Заполните поле группы" 
+                ControlToValidate="group" ErrorMessage="Заполните поле группы" 
                 ForeColor="Red">Не оставляйте поле пустым
             </asp:RequiredFieldValidator>
         </div> 
@@ -43,14 +43,14 @@
                 ErrorMessage="Заполните поле отметки студента" 
                 ForeColor="Red">Не оставляйте поле пустым
             </asp:RequiredFieldValidator>
-           <%-- <asp:RangeValidator id="Range1"
+            <asp:RangeValidator id="Range1"
                ControlToValidate="averageMark"
                MinimumValue="1"
                MaximumValue="10"
                Type="Integer"
                EnableClientScript="false"
-               Text=""
-               runat="server">"Оценка в балах от 1 до 10"</asp:RangeValidator>--%>
+               Text="Оценка в балах от 1 до 10"
+               runat="server"> Оценка в балах от 1 до 10 </asp:RangeValidator>
         </div>
            <div>
             <button type="submit" style="width: 297px">Внести данные о студенте</button>
