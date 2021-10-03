@@ -30,7 +30,7 @@ table, td, th {
     border: thin solid black;
     border-collapse: collapse;
     padding: 5px;
-    background-color: lemonchiffon;
+    background-color: #4dfa92;
     text-align: left;
     margin: 10px 0;
 }
@@ -57,5 +57,5 @@ table, td, th {
 }
 .menu {
     width: 100%;
-    padding: 3px 10px;
+    padding: 3px 10px;  
 }
