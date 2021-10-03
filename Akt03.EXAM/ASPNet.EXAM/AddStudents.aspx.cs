@@ -1,5 +1,4 @@
 ﻿using ASPNet.EXAM.Models;
-using Lab01.Ex01.EmptyWebSite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +29,7 @@ namespace ASPNet.EXAM
                 try
                 {
                     SampleContext context = new SampleContext();
-                    context.GuestResponses.Add(student);
+                    context.Student.Add(student);
                     context.SaveChanges();
                 }
                 catch (Exception ex)
