@@ -72,6 +72,7 @@
   <ItemGroup>
     <Content Include="AddStudents.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="DataSave.aspx" />
     <Content Include="Start.aspx" />
     <Content Include="Styles.css" />
     <Content Include="Web.config" />
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DataSave.aspx.cs">
+      <DependentUpon>DataSave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataSave.aspx.designer.cs">
+      <DependentUpon>DataSave.aspx</DependentUpon>
     </Compile>
     <Compile Include="Start.aspx.cs">
       <DependentUpon>Start.aspx</DependentUpon>
