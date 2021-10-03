@@ -16,7 +16,7 @@
                 <asp:BoundField DataField="AverageMark" HeaderText="Оценка" ReadOnly="True" SortExpression="AverageMark" />
             </Columns>
         </asp:GridView>  
-        <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="ASPNet.EXAM.SampleContext" EntityTypeName="" Select="new (Name, Surname, Group, AverageMark)" TableName="Students"> </asp:LinqDataSource>
+        <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="ASPNet.EXAM.SampleContext" EntityTypeName="" Where="AverageMark>8" Select="new (Name, Surname, Group, AverageMark)" TableName="Students"> </asp:LinqDataSource>
 
     </div>
 </asp:Content>
