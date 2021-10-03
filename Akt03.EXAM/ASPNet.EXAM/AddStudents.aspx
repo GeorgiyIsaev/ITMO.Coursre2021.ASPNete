@@ -37,12 +37,23 @@
         </div> 
         <div> 
             <label style="width: 140px">Оценка студента:</label>
-            <asp:TextBox ID="averageMark" runat="server" OnKeyPress="EnsureNumeric()"></asp:TextBox> 
+            <asp:TextBox ID="averageMark" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
                 ControlToValidate="averageMark" 
                 ErrorMessage="Заполните поле отметки студента" 
                 ForeColor="Red">Не оставляйте поле пустым
             </asp:RequiredFieldValidator>
-        </div> 
+           <%-- <asp:RangeValidator id="Range1"
+               ControlToValidate="averageMark"
+               MinimumValue="1"
+               MaximumValue="10"
+               Type="Integer"
+               EnableClientScript="false"
+               Text=""
+               runat="server">"Оценка в балах от 1 до 10"</asp:RangeValidator>--%>
+        </div>
+           <div>
+            <button type="submit" style="width: 297px">Внести данные о студенте</button>
+        </div>
     </div>
 </asp:Content> 
