@@ -6,7 +6,7 @@
 <asp:Content ID="MainContent" 
     ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
    <div>
-        <h2>Cписок студентов</h2>
+        <h2>Cписок лучших студентов</h2>
  
       <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="LinqDataSource1">
             <Columns>
