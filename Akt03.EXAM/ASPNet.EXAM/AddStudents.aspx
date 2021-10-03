@@ -11,7 +11,7 @@
         <h1>Добавить нового студента</h1>       
          <div> 
             <asp:ValidationSummary ID="validationSummary" runat="server" ShowModelStateErrors="true" />
-            <label style="width: 140px">Имя студента:</label>
+            <label style="width: 150px"><br/>Имя студента:</label>
             <asp:TextBox ID="name" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
                 ControlToValidate="name"
@@ -20,7 +20,7 @@
             </asp:RequiredFieldValidator>
         </div> 
         <div> 
-            <label style="width: 140px">Фамилия студента:</label>
+            <label style="width: 150px">Фамилия студента:</label>
             <asp:TextBox ID="surname" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
                 ControlToValidate="surname" ErrorMessage="Заполните поле фамилии" 
@@ -28,7 +28,7 @@
             </asp:RequiredFieldValidator>   
         </div> 
         <div> 
-            <label style="width: 140px">Группа студента:</label>
+            <label style="width: 150px">Группа студента:</label>
             <asp:TextBox ID="group" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
                 ControlToValidate="group" ErrorMessage="Заполните поле группы" 
@@ -36,7 +36,7 @@
             </asp:RequiredFieldValidator>
         </div> 
         <div> 
-            <label style="width: 140px">Оценка студента:</label>
+            <label style="width: 150px">Оценка студента:</label>
             <asp:TextBox ID="averageMark" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
                 ControlToValidate="averageMark" 

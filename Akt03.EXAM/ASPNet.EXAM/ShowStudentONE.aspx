@@ -5,7 +5,7 @@
 
 <asp:Content ID="MainContent" 
     ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
-   <div>
+    <div>
         <h2>Cписок лучших студентов</h2>
        <div>Список со студентами с оценками выше 8 баллов</div>
  
