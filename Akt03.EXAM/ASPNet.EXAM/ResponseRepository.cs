@@ -4,7 +4,7 @@ using System.Web;
 using System.Collections.Generic;
 using ASPNet.EXAM.Models;
 
-namespace Lab01.Ex01.EmptyWebSite
+namespace ASPNet.EXAM
 {
     public class ResponseRepository
     {
