@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Lab08.Ex01.AccountIng.PP.Models;
+using Lab05.Ex01.MvcCreditApp1.Models;
 
-namespace Lab08.Ex01.AccountIng.PP.Controllers
+namespace Lab05.Ex01.MvcCreditApp1.Controllers
 {
     [Authorize]
     public class AccountController : Controller

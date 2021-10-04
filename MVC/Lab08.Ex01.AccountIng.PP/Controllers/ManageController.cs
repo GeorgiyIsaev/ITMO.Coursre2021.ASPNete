@@ -3,12 +3,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using Lab05.Ex01.MvcCreditApp1.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Lab08.Ex01.AccountIng.PP.Models;
 
-namespace Lab08.Ex01.AccountIng.PP.Controllers
+namespace Lab05.Ex01.MvcCreditApp1.Controllers
 {
     [Authorize]
     public class ManageController : Controller

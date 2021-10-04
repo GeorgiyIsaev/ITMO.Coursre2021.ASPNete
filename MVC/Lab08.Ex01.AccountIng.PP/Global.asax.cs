@@ -1,5 +1,4 @@
 using Lab05.Ex01.MvcCreditApp1.Models;
-using Lab08.Ex01.AccountIng.PP;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

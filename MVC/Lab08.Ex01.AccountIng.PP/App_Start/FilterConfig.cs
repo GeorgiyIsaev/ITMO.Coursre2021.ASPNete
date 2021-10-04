@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Lab08.Ex01.AccountIng.PP
+namespace Lab05.Ex01.MvcCreditApp1
 {
     public class FilterConfig
     {

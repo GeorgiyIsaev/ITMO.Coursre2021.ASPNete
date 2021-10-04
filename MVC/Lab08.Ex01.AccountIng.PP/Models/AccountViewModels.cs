@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Lab08.Ex01.AccountIng.PP.Models
+namespace Lab05.Ex01.MvcCreditApp1.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

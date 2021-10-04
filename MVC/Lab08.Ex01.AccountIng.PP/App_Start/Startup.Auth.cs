@@ -1,13 +1,13 @@
 ﻿using System;
+using Lab05.Ex01.MvcCreditApp1.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Lab08.Ex01.AccountIng.PP.Models;
 
-namespace Lab08.Ex01.AccountIng.PP
+namespace Lab05.Ex01.MvcCreditApp1
 {
     public partial class Startup
     {

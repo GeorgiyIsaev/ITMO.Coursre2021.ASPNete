@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace Lab08.Ex01.AccountIng.PP.Models
+
+namespace Lab05.Ex01.MvcCreditApp1.Models
 {
     public class IndexViewModel
     {

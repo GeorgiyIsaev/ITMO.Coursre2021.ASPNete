@@ -5,14 +5,14 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
+using Lab05.Ex01.MvcCreditApp1.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using Lab08.Ex01.AccountIng.PP.Models;
 
-namespace Lab08.Ex01.AccountIng.PP
+namespace Lab05.Ex01.MvcCreditApp1
 {
     public class EmailService : IIdentityMessageService
     {
