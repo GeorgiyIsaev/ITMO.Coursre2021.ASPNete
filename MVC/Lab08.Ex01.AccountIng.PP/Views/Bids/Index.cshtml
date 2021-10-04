@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<Lab05.Ex01.MvcCreditApp1.Models.Bid>
- 
+
 @{
     ViewBag.Title = "Заявки";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,9 +8,9 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+<h2>Заявки</h2>
+<p> @Html.ActionLink("Создать новую заявку", "Create") </p>
 <table class="table">
-    <h2>Заявки</h2>
-    <p> @Html.ActionLink("Создать новую заявку", "Create") </p>
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Name)
