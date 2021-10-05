@@ -36,7 +36,7 @@ namespace ASPNet.EXAM
                 }
                 catch (Exception ex)
                 {
-                    Response.Redirect("Ошибка " + ex.Message);
+                    Response.Write("Ошибка " + ex.Message);
                 }
                 Response.Redirect("DataSave.aspx");
 

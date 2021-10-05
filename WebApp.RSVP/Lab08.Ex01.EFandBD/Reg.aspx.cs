@@ -41,7 +41,7 @@ namespace Lab01.Ex01.EmptyWebSite
                 } 
                 catch (Exception ex) 
                 {
-                    Response.Redirect("Ошибка " + ex.Message); 
+                    Response.Write("Ошибка " + ex.Message); 
                 }
                
                 if (rsvp.WillAttend.HasValue && rsvp.WillAttend.Value)

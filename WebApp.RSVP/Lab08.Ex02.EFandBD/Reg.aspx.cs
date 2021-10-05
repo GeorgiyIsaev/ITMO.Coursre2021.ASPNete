@@ -34,14 +34,14 @@ namespace Lab01.Ex01.EmptyWebSite
                 }
                 ResponseRepository.GetRepository().AddResponse(rsvp);
                 try 
-                {
+                {                 
                     SampleContext context = new SampleContext();
-                    context.GuestResponses.Add(rsvp);
+                    context.GuestResponses.Add(a);
                     context.SaveChanges();
                 } 
                 catch (Exception ex) 
                 {
-                    Response.Redirect("Ошибка " + ex.Message); 
+                    Response.Write("Ошибка " + ex.Message); 
                 }
                
                 if (rsvp.WillAttend.HasValue && rsvp.WillAttend.Value)
