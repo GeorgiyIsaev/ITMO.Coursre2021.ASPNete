@@ -36,7 +36,7 @@ namespace Lab01.Ex01.EmptyWebSite
                 try 
                 {                 
                     SampleContext context = new SampleContext();
-                    context.GuestResponses.Add(a);
+                    context.GuestResponses.Add(rsvp);
                     context.SaveChanges();
                 } 
                 catch (Exception ex) 
